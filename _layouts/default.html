@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    <header>
+      <div id="title">
+          <h1>lb</h1>
+        </div>
+    </header>
+    {% include header.html %}
+
+    <div class="page-content">
+
+        <span class="authorQuote">
+                  <p>"The power of the unaided mind is overrated. The real powers come from devising
+                      external aids that enhance cognitive abilities."</p>
+                  <br><br>
+                  <p class="authorName">-- Donald Norman</p></span>
+
+
+                  <br><br><br><br><br>
+                  <br><br><br><br><br>
+                  <br><br><br><br><br>
+            <p>Unsupervised machine learning finds hidden structure in unlabeled data. Since the examples given to the machine are unlabeled, there is no error or reward signal to evaluate a potential solution. The machine must establish its own parameters.</p>
+                  <br><br><br><br><br><br><br><br><br><br><br><br>
+        <span class="authorQuote"><p>“The next Darwin will make sense of data that a computer uncomprehendingly has flagged as interestingly anomalous.”</p>
+                  <br><br>
+                  <p class="authorName">-- David Weinberger</p></span>
+                  <br><br><br><br><br>
+                  <br><br><br><br><br>
+
+
+      <div class="wrapper">
+        <p>You should hire me.</p>
+        <br><br><br><br><br>
+        <br><br><br><br><br>
+      <div id="first post">
+        <p class="postTitle">First Post: Merge Sort</p>
+        <img id="merge" src="http://i.imgur.com/IRCtIG6.gif"/>
+        <ul>
+          <li>follows Divide and Conquer Paradigm: a problem is broken into pieces where each piece still retains all the properties of the larger problem -- except its size.</li><br>
+          <li>To solve the problem, each piece is solved individually, then all the pieces are merged back together.</li><br>
+          <li>O(nlog(n))</li><br>
+          <li>Approaches Sorting with two main Steps:<br>
+              <br>
+              <p class="indent">(1): divide list into smaller lists until each list contains 1 element. Note that a list with only one element is sorted.</p><br>
+              <p class="indent">(2): merge two lists with each other, by comparing the first index of each list, and choosing the smaller one.</p><br></li>
+          <li>Considered a very robust algorithm.</li><br>
+        </ul>  
+      </div>
+
+
+
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
