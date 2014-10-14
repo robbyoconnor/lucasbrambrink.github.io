@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Battleship: Working as a Team
+title: Working as a Team
 cover: cover.jpg
-date:   2014-10-14
+date:   2014-10-14 09:10:00
 categories: posts
 ---
 
