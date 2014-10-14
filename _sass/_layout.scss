@@ -5,17 +5,22 @@
     border-top: none;
     border-bottom: none;
     min-height: 56px;
+    min-width: 100%;
 
     // Positioning context for the mobile navigation icon
-    position: relative;
+    position: fixed;
+    float: right;
+    background-color: black;
+    color: white;
 }
 
 .site-title {
+    background-color: black;
+    color: white;
     font-size: 26px;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
-    float: left;
 
     &,
     &:visited {
@@ -33,11 +38,16 @@
     }
 
     .page-link {
-        color: $text-color;
+        height: 2em;
+        font-size: small;
+        padding-left: 2em;
+        padding: 1em;
+        float: right;
+        color: white;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one
-        &:not(:first-child) {
+        &:not(nth-child) {
             margin-left: 20px;
         }
     }
@@ -71,6 +81,11 @@
         }
 
         .trigger {
+            padding: 1em;
+            width: 100%;
+            background-color: black;
+            color: white;
+            float: right;
             clear: both;
             display: none;
         }
@@ -81,13 +96,16 @@
         }
 
         .page-link {
+            color: white;
             display: block;
             padding: 5px 10px;
         }
     }
 }
 
-
+#code {
+    width: 100%;
+}
 
 /**
  * Site footer
@@ -210,6 +228,8 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
+    width: 70%;
+    margin-left: 5em;
 
     h2 {
         font-size: 32px;

@@ -20,81 +20,14 @@ body {
     font-weight: 300;
     color: black;
     background-color: $background-color;
+    background-image: none;
+    position: relative;
+    min-height: 100%;
     -webkit-text-size-adjust: 100%;
-    background: url("http://i.imgur.com/Kr8P44k.png") no-repeat top center fixed;
-    background-size: cover;
-    height: 60%;
-    width: 100%;
     margin: 0;
     padding: 0;
 }
 
-.page-content {
-    margin: 1em;
-    padding: 2em;
-    width: 60%;
-    color: black;
-    position: relative;
-    float: left;
-}
-
-.site-nav {
-  text-align: right;
-  position: fixed;
-  color: white;
-  width: 100%;
-}
-
-#space {
-  height: 8em;
-}
-
-#merge {
-  height: 5em;
-  width: 7em;
-}
-
-.postTitle {
-  font-style: italic;
-  font-size: xx-large;
-}
-
-.indent {
-  padding-left: 2em;
-}
-
-#navLinks {
-  margin: 0;
-  padding: 0;
-  position: fixed;
-  height: 100%;
-  width: 8em;
-  float: right;
-  background-color: black;
-}
-
-.authorName {
-  padding-left: 10em;
-  font-style: bold;
-  font-size: xx-large;
-  float: center;
-
-
-}
-
-.authorQuote {
-  font-style: italic;
-  font-size: xx-large;
-}
-
-#title {
-  width: auto;
-  text-align: center;
-  padding-left: 16.5em;
-  margin-top: 15em;
-  font-size: xx-large;
-  color: white;
-}
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
@@ -224,10 +157,8 @@ pre {
  * Wrapper
  */
 .wrapper {
-    max-width: -webkit-calc(800px - (#{$spacing-unit} * 2));
-    max-width:         calc(800px - (#{$spacing-unit} * 2));
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 0;
+    margin-left: 0;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
     @extend %clearfix;

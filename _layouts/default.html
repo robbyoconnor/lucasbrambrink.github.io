@@ -1,63 +1,55 @@
 <!DOCTYPE html>
 <html>
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Flex - {{ page.title }}</title>
+      <meta name="viewport" content="width=device-width">
 
-  {% include head.html %}
+      <!-- syntax highlighting CSS -->
+      <link rel="stylesheet" href="/css/syntax.css">
 
+      <!-- Custom CSS -->
+      <link rel="stylesheet" href="/css/main.css">
+
+      <!-- Responsive CSS -->
+      <link rel="stylesheet" href="/css/responsive.css">
+
+      <!-- Google Fonts -->
+      <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Raleway:300,400,700' rel='stylesheet' type='text/css'>
+  </head>
   <body>
-    <header>
-      <div id="title">
-          <h1>lb</h1>
+    <div class="site">
+      <div class="sidebar" id="sidebar">
+        <div class="header">
+          <h1 class="title"><a href="/"><img id="logo" src="/images/logo.png"></a></h1>
+          <span class="tagline">A responsive Jekyll theme</span>
         </div>
-    </header>
-    {% include header.html %}
-
-    <div class="page-content">
-
-        <span class="authorQuote">
-                  <p>"The power of the unaided mind is overrated. The real powers come from devising
-                      external aids that enhance cognitive abilities."</p>
-                  <br><br>
-                  <p class="authorName">-- Donald Norman</p></span>
-
-
-                  <br><br><br><br><br>
-                  <br><br><br><br><br>
-                  <br><br><br><br><br>
-            <p>Unsupervised machine learning finds hidden structure in unlabeled data. Since the examples given to the machine are unlabeled, there is no error or reward signal to evaluate a potential solution. The machine must establish its own parameters.</p>
-                  <br><br><br><br><br><br><br><br><br><br><br><br>
-        <span class="authorQuote"><p>“The next Darwin will make sense of data that a computer uncomprehendingly has flagged as interestingly anomalous.”</p>
-                  <br><br>
-                  <p class="authorName">-- David Weinberger</p></span>
-                  <br><br><br><br><br>
-                  <br><br><br><br><br>
-
-
-      <div class="wrapper">
-        <p>You should hire me.</p>
-        <br><br><br><br><br>
-        <br><br><br><br><br>
-      <div id="first post">
-        <p class="postTitle">First Post: Merge Sort</p>
-        <img id="merge" src="http://i.imgur.com/IRCtIG6.gif"/>
-        <ul>
-          <li>follows Divide and Conquer Paradigm: a problem is broken into pieces where each piece still retains all the properties of the larger problem -- except its size.</li><br>
-          <li>To solve the problem, each piece is solved individually, then all the pieces are merged back together.</li><br>
-          <li>O(nlog(n))</li><br>
-          <li>Approaches Sorting with two main Steps:<br>
-              <br>
-              <p class="indent">(1): divide list into smaller lists until each list contains 1 element. Note that a list with only one element is sorted.</p><br>
-              <p class="indent">(2): merge two lists with each other, by comparing the first index of each list, and choosing the smaller one.</p><br></li>
-          <li>Considered a very robust algorithm.</li><br>
-        </ul>  
+        <div class="posts">
+          <ul class="posts-list">
+            {% for post in site.posts %}
+              <li class="post-link">
+                <a class="post-title" href="{{ post.url }}">
+                  <span class="post-date">{{ post.date | date_to_string }}</span>
+                  {{ post.title }}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="footer">
+          <span id="footer-links">
+            <a href="" class="footer-link">About</a> <span class="separator">&bull;</span>
+            <a href="" class="footer-link">Twitter</a> <span class="separator">&bull;</span>
+            <a href="" class="footer-link">GitHub</a>
+          </span>
+        </div>
       </div>
 
+        {{ content }}
 
-
-      </div>
     </div>
-
-    {% include footer.html %}
-
+    <script src="/scripts/responsive.js" type="text/javascript"></script>
   </body>
-
 </html>
