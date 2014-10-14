@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Example post
+title: Battleship: Working as a Team
 cover: cover.jpg
-date:   2013-12-09 12:00:00
+date:   2014-10-14
 categories: posts
 ---
 
-##Working as A Team
+##Working Together != Easy
 
 Our weekend coding project of building a working version of battleship turned out a failure. It was not because we simply did not do it, due to laziness or some sense of apathy. There were other factors at work, some deserve their own articulation.
 
