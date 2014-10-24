@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Let's talk about OO
-cover: cover.jpg
+cover: nycbw.jpg
 date:   2014-10-14 09:10:00
 categories: posts
 ---
