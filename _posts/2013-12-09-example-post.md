@@ -21,8 +21,8 @@ What that team clearly needed was a mediator, a person supervising the progress 
 
 Our mistake was thinking that this connection of modules would handle itself. This is why industry spends an inordinate amount of resources on management: teams require supervision. It has nothing to do with encouraging work and boosting productivity, it is more about focus. The reason why a professional orchestra needs a professional conductor is not because each individual musician does not play their music well. Rather, the conductor unifies each member to play a cohesive piece of music, together. Our project was lacking a conductor.
 
-I would propose this person write very little code themselves, and focus only on reading the code already completed, trying to merge modules across our paradigm and most importantly, *delegate tasks* to the coders so that they know *exactly* what they need to do. 
+I would propose this person write very little code themselves, and focus only on reading the code already completed, trying to merge modules across our paradigm and most importantly, *delegate tasks* to the coders so everyone knows *exactly* what they need to do. 
 
-Other factors notwithstanding, I venture this was the central issue. We had 700 lines of code that didn't harmonize. We were a symphony without a conductor, a group of musicians playing their own music in the same room. That is precisely what people call a cacophony. 
+Other factors notwithstanding, I venture this was the central issue. We had 700 lines of code that didn't harmonize. We were a symphony without a conductor, a group of musicians playing their own music in the same room. We produced a cacophony.
 
 
