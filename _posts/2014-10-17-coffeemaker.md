@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Let's talk about OO
-cover: nycred.jpg
+cover: nycblue.png
 date:   2014-10-23 09:10:00
 categories: posts
 ---
