@@ -5,7 +5,7 @@ cover: earth2.png
 date:   2014-10-23 09:10:00
 categories: posts
 ---
-Plotting Ship Logs of the 18th and 19th Century.
+Visualizing Ship Log Entries of the 18th and 19th Century.
 ------------
 By plotting millions of journal entries of ship logs over the course of the 18th and 19th century, one develops an incredible map of ocean trade.
 
