@@ -211,6 +211,11 @@ img[alt="oldimage_ships"] {
   display: block;
 }
 
+img[alt="newimage_ships"] { 
+  max-width:  100%; 
+  display: block;
+}
+
 
 /*****************************************************************************/
 /*
