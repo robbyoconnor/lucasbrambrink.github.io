@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Plotting Journal Entries of the 18th and 19th Century Ship Logs
-cover: earth.png
+cover: earth2.png
 date:   2014-10-23 09:10:00
 categories: posts
 ---
