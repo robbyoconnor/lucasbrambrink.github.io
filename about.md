@@ -4,7 +4,5 @@ title: lb
 permalink: /about/
 ---
 
-This is my about Page. This is where I write things about myself. Right?
+I am a full stack developer living in NYC. I specialize in Big Data, backend development, and finance.
 
-Idea:
-chronjob for committing period to readME of blog for streak continuation. hehehe.
