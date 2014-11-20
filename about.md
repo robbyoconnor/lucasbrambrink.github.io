@@ -4,5 +4,5 @@ title: lb
 permalink: /about/
 ---
 
-I am a full stack developer living in NYC. I specialize in Big Data, backend development, and finance.
+I am a full stack developer living in NYC. I specialize in Big Data, backend development, and finance. Today I learned that deploying apps is very difficult.
 
